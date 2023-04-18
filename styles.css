@@ -1,0 +1,73 @@
+.container {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    text-align:  center;
+    border: 16px solid purple;
+    padding: 40px 20px;
+}
+
+.slider-prev {
+    position: absolute;
+    bottom: 140px;
+    left: 360px;
+    opacity: 0;
+}
+
+.slider-next {
+    position: absolute;
+    bottom: 140px;
+    right: 360px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    -ms-transition: .5s all ease;
+    -o-transition: .5s all ease;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+img {
+    width: 256px;
+}
+
+.slider {
+    width: 256px;
+    height: 171px;
+    border: 10px solid purple;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    height: 171px;
+    width: 512px;
+    background: orangered;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    -ms-transition: .5s all ease;
+    -o-transition: .5s all ease;
+}
